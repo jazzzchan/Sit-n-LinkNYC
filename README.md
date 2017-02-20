@@ -18,4 +18,5 @@ Process
 This gives you all the OSM amenities within the connection range of every LINK NYC.
 From here on you can add Widgets and legends to customize your view.
 
-My view is (here)[https://nyu.carto.com/u/varun-cusp2/builder/44865964-f6d4-11e6-9779-0ee66e2c9693]
+My view is [here](https://nyu.carto.com/u/varun-cusp2/builder/44865964-f6d4-11e6-9779-0ee66e2c9693/embed)
+
