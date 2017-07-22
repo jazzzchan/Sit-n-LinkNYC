@@ -6,11 +6,12 @@
 
 Process
 
-1. **Obtain LINK-NYC location data** -`https://data.cityofnewyork.us/Social-Services/LinkNYC-Locations/s4kf-3yrf`
-   * This from Official NYC Open Data portal. Carto connects and syncs with this source.
+1. **LINK-NYC location data** -`https://data.cityofnewyork.us/Social-Services/LinkNYC-Locations/s4kf-3yrf`
+   * This from Official NYC Open Data portal.
    * [July 2017] Currently synced in CARTO every month using the link - https://data.cityofnewyork.us/api/views/s4kf-3yrf/rows.csv?accessType=DOWNLOAD
           
- 2. **Obtain Open Street Map "amenity" data** by `echo '[out:json];(node["amenity"](40.495992,-74.257159,40.915568,-73.699215););out;>;out skel qt;' | query-overpass --flat-properties >>query-overpass-export-MASTER.geojson`
+ 2. **On Terminal Obtain Open Street Map "amenity" data** by `echo '[out:json];area[admin_level=5]["name"="New York City"][boundary=administrative]->.boundaryarea;(  node["amenity" ~ "coffee"](area.boundaryarea);node["amenity" ~ "cafe"](area.boundaryarea);node["amenity" ~"restaurant"](area.boundaryarea);node["amenity"~"library"](area.boundaryarea);node["amenity" ~ "school"](area.boundaryarea);node["public_transport"](area.boundaryarea););out;>;out skel qt;' | query-overpass --flat-properties >>date+%B%Y-query-overpass-export-MASTER.geojson
+vivi-macbook:LinkNYC-geo vivi$ echo '[out:json];area[admin_level=5]["name"="New York City"][boundary=administrative]->.boundaryarea;(  node["amenity" ~ "coffee"](area.boundaryarea);node["amenity" ~ "cafe"](area.boundaryarea);node["amenity" ~ "restaurant"](area.boundaryarea);node["amenity" ~ "library"](area.boundaryarea);node["amenity" ~ "school"](area.boundaryarea);node ["public_transport"](area.boundaryarea););out;>;out skel qt;' | query-overpass --flat-properties >>`date +%B%Y`-query-overpass-export-MASTER.geojson`
 	 * This uses the OverPass API and Query-Overpass API to obtain a GEOJSON output
 	 * Add this GEOJSON to Carto instance.
 	 * Try updating the location info  to `area[admin_level=5]["name"="New York City"][boundary=administrative]->.boundaryarea;`
