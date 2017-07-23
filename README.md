@@ -4,7 +4,7 @@
 
 This is the process to create a digital map that shows selected "amenities" where the public can sit down and access LinkNYC Wifi in New York City. 
 
-I have used [NYC Open Data](opendata.cityofnewyork.us), [CARTO](www.carto.com), and the open-source [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) that uses data from [Open Street Map](http://openstreetmap.org)
+I have used [NYC Open Data](opendata.cityofnewyork.us), [CARTO](www.carto.com), and the open-source [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) that uses data from [Open Street Map](http://openstreetmap.org).
 
 [LINK to Sit-n-LinkNYC MAP](https://nyu.carto.com/u/varun-cusp2/builder/fa2fc615-cae5-4c2f-9f69-3a2b13704ce2/embed)
 ![](https://user-images.githubusercontent.com/4397663/28500542-0bf6503a-6f98-11e7-86f7-4c1011505733.png)
@@ -27,7 +27,7 @@ I have used [NYC Open Data](opendata.cityofnewyork.us), [CARTO](www.carto.com), 
 
  3. **Setup map environment with the following datasets**
     * LinkNYC locations from #1 
-    * QueryyOverpass geojson output from #2
+    * The geojson output we generated from #2
     
  4. **Create Areas of Influence** aka Buffers around every LinkNYC site
     * We will call this ***LinkNYC buffers***.
