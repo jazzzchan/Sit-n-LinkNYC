@@ -3,6 +3,7 @@
 This is the process to create a digital map that shows selected "amenities" (as contained in Open Street Map) within the range of LinkNYC sites in New York City. I have used [NYC Open Data](opendata.cityofnewyork.us), [CARTO](www.carto.com), and the open-source [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) that uses data from [Open Street Map](http://openstreetmap.org)
 
 [LINK to Sit-n-LinkNYC MAP](https://nyu.carto.com/u/varun-cusp2/builder/fa2fc615-cae5-4c2f-9f69-3a2b13704ce2/embed)
+![](https://user-images.githubusercontent.com/4397663/28500542-0bf6503a-6f98-11e7-86f7-4c1011505733.png)
 
 ***[LinkNYC](https://link.nyc/) is a first-of-its-kind communications network that will replace over 7,500 pay phones across the five boroughs with new structures called Links. Each Link provides superfast, free public Wi-Fi, phone calls, device charging and a tablet for access to city services, maps and directions.***
 
