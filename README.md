@@ -1,6 +1,6 @@
 # Sit-n-LinkNYC
 
-This is the process to create a digital map that shows selected "amenities" (as contained in Open Street Map) within the range of LinkNYC sites in New York City. I have used [NYC Open Data](opendata.cityofnewyork.us), [CARTO](www.carto.com), and the open-source [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) that uses data from [Open Street Map[(http://openstreetmap.org)
+This is the process to create a digital map that shows selected "amenities" (as contained in Open Street Map) within the range of LinkNYC sites in New York City. I have used [NYC Open Data](opendata.cityofnewyork.us), [CARTO](www.carto.com), and the open-source [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) that uses data from [Open Street Map](http://openstreetmap.org)
 
 [LINK to Sit-n-LinkNYC MAP](https://nyu.carto.com/u/varun-cusp2/builder/fa2fc615-cae5-4c2f-9f69-3a2b13704ce2/embed)
 
